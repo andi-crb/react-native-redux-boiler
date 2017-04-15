@@ -12,11 +12,11 @@ export default function native () {
 
   const store = configureStore()
 
-  // const OnsiteHire = () => (
-  //   <Provider store={store} >
-  //     <App />
-  //   </Provider>
-  // )
-  //
-  // AppRegistry.registerComponent('OnsiteHire', () => OnsiteHire)
+  const OnsiteHire = () => (
+    <Provider store={store} >
+      <App />
+    </Provider>
+  )
+  
+  AppRegistry.registerComponent('OnsiteHire', () => OnsiteHire)
 }
